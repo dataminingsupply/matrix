@@ -3,18 +3,36 @@
   "description": "Common matrix operation bindings for Math.js",
   "version": "1.0.0",
   "scope": "kapow",
-  "repository": "",
-  "author": "",
+  "repository": "https://github.com/dataminingsupply/matrix",
+  "author": "kapow",
   "script": "index.js",
   "license": {
     "type": "MIT",
     "year": 2016,
-    "copyright": "copyright-holder-goes-here"
+    "copyright": "Kapil Garg"
   },
   "public": true,
-  "tags": [],
-  "inputs": [],
+  "tags": [
+    "matrix",
+    "matrices"
+  ],
+  "thumbnail": "matrix.png",
+  "inputs": [
+    {
+      "name": "matrixA",
+      "type": "array",
+      "description": "Matrix A as a 2D-array. This is used for operations that only have 1 matrix input."
+    },
+    {
+      "name": "matrixB",
+      "type": "array",
+      "description": "Matrix B as a 2D-array."
+    }
+  ],
   "parameters": [],
-  "supplies": {},
-  "breadcrumbs": {}
+  "supplies": {
+    "matrix": "1.0.0"
+  },
+  "breadcrumbs": {},
+  "path": "./dms_supplies"
 }
