@@ -1,10 +1,6 @@
 var math = require('./math.js');
 
 module.exports = {
-  $inject: function(supply, config){
-    return;
-  },
-
   $main: function($, data, config, callback){
     return callback(null, data);
   },

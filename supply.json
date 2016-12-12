@@ -30,9 +30,7 @@
     }
   ],
   "parameters": [],
-  "supplies": {
-    "matrix": "1.0.0"
-  },
+  "supplies": {},
   "breadcrumbs": {},
   "path": "./dms_supplies"
 }
