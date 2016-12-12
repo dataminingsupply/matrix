@@ -20,8 +20,8 @@ This supply acts as a simply wrapper for matrix operations implemented in [Math.
 - subtract(matrixA, matrixB): subtracts corresponding elements of matrixB from matrixA
 - multiply(matrixA, matrixB): multiplies two matrixA with matrixB together
 - transpose(matrixA): computes the transpose of matrixA
--determinant(matrixA): computes the determinant for matrixA
--inverse(matrixA): computes the inverse of matrixA
+- determinant(matrixA): computes the determinant for matrixA
+- inverse(matrixA): computes the inverse of matrixA
 ***dms_text_END***/
 
 /***dms_snippet_START_1***/
@@ -43,11 +43,11 @@ dms.json(matrix.$on('subtract', data));
 dms.json(matrix.$on('multiply', data));
 /***dms_snippet_END***/
 
-/***dms_snippet_OUTPUT_JSON_3_{"line":41,"adjusted_line":6,"id":"mUwcqWhiVQfVQkL","type":"json","body":{"output":[[9,1],[-3,6]]}}***/
+/***dms_snippet_OUTPUT_JSON_3_{"line":41,"adjusted_line":6,"id":"mUwcqWhiVQfVQkL","type":"json","body":{"output":[[9,1],[-3,6]]},"i":{"chapter":"0","element":"3","output":"0"}}***/
 
-/***dms_snippet_OUTPUT_JSON_3_{"line":42,"adjusted_line":7,"id":"sgCsPlLbFGmelPr","type":"json","body":{"output":[[-5,-1],[1,0]]}}***/
+/***dms_snippet_OUTPUT_JSON_3_{"line":42,"adjusted_line":7,"id":"sgCsPlLbFGmelPr","type":"json","body":{"output":[[-5,-1],[1,0]]},"i":{"chapter":"0","element":"3","output":"1"}}***/
 
-/***dms_snippet_OUTPUT_JSON_3_{"line":43,"adjusted_line":8,"id":"ITcoXyFVPrrJwzR","type":"json","body":{"output":[[14,2],[-13,8]]}}***/
+/***dms_snippet_OUTPUT_JSON_3_{"line":43,"adjusted_line":8,"id":"ITcoXyFVPrrJwzR","type":"json","body":{"output":[[14,2],[-13,8]]},"i":{"chapter":"0","element":"3","output":"2"}}***/
 
 /***dms_text_START_4***
 Examples of transpose, inverse, and determinant
@@ -63,11 +63,11 @@ dms.json(matrix.$on('inverse', data));
 dms.json(matrix.$on('determinant', data));
 /***dms_snippet_END***/
 
-/***dms_snippet_OUTPUT_JSON_5_{"line":61,"adjusted_line":5,"id":"UjmqWxzsTFseefc","type":"json","body":{"output":[[2,-1],[0,3]]}}***/
+/***dms_snippet_OUTPUT_JSON_5_{"line":61,"adjusted_line":5,"id":"UjmqWxzsTFseefc","type":"json","body":{"output":[[2,-1],[0,3]]},"i":{"chapter":"0","element":"5","output":"0"}}***/
 
-/***dms_snippet_OUTPUT_JSON_5_{"line":62,"adjusted_line":6,"id":"LJRDgSinVoSvWpu","type":"json","body":{"output":[[0.5,0],[0.16666666666666666,0.3333333333333333]]}}***/
+/***dms_snippet_OUTPUT_JSON_5_{"line":62,"adjusted_line":6,"id":"LJRDgSinVoSvWpu","type":"json","body":{"output":[[0.5,0],[0.16666666666666666,0.3333333333333333]]},"i":{"chapter":"0","element":"5","output":"1"}}***/
 
-/***dms_snippet_OUTPUT_JSON_5_{"line":63,"adjusted_line":7,"id":"dshMYqZlaHYQjqH","type":"json","body":{"output":6}}***/
+/***dms_snippet_OUTPUT_JSON_5_{"line":63,"adjusted_line":7,"id":"dshMYqZlaHYQjqH","type":"json","body":{"output":6},"i":{"chapter":"0","element":"5","output":"2"}}***/
 
 /***dms_text_START_6***
 Examples of errors if correct conditions for functions are meant
@@ -99,12 +99,12 @@ matrix.$on('inverse', data, matrixCallback);
 matrix.$on('determinant', data, matrixCallback);
 /***dms_snippet_END***/
 
-/***dms_snippet_OUTPUT_JSON_7_{"line":79,"adjusted_line":3,"id":"KjdDsckZRxfkdza","type":"log","body":"RangeError: Dimension mismatch. Matrix A (1,0) must match Matrix B (2,2)"}***/
+/***dms_snippet_OUTPUT_JSON_7_{"line":79,"adjusted_line":3,"id":"KjdDsckZRxfkdza","type":"log","body":"RangeError: Dimension mismatch. Matrix A (1,0) must match Matrix B (2,2)","i":{"chapter":"0","element":"7","output":"0"}}***/
 
-/***dms_snippet_OUTPUT_JSON_7_{"line":79,"adjusted_line":3,"id":"AZUqREvBmbWhMdz","type":"log","body":"RangeError: Dimension mismatch. Matrix A (1,0) must match Matrix B (2,2)"}***/
+/***dms_snippet_OUTPUT_JSON_7_{"line":79,"adjusted_line":3,"id":"AZUqREvBmbWhMdz","type":"log","body":"RangeError: Dimension mismatch. Matrix A (1,0) must match Matrix B (2,2)","i":{"chapter":"0","element":"7","output":"1"}}***/
 
-/***dms_snippet_OUTPUT_JSON_7_{"line":79,"adjusted_line":3,"id":"ZxOsfHkdeDUSXJw","type":"log","body":"RangeError: Dimension mismatch in multiplication. Matrix A columns (0) must match Matrix B rows (2)"}***/
+/***dms_snippet_OUTPUT_JSON_7_{"line":79,"adjusted_line":3,"id":"ZxOsfHkdeDUSXJw","type":"log","body":"RangeError: Dimension mismatch in multiplication. Matrix A columns (0) must match Matrix B rows (2)","i":{"chapter":"0","element":"7","output":"2"}}***/
 
-/***dms_snippet_OUTPUT_JSON_7_{"line":79,"adjusted_line":3,"id":"mjbJvPXGStUNHYI","type":"log","body":"RangeError: Matrix must be square (size: [1, 2])"}***/
+/***dms_snippet_OUTPUT_JSON_7_{"line":79,"adjusted_line":3,"id":"mjbJvPXGStUNHYI","type":"log","body":"RangeError: Matrix must be square (size: [1, 2])","i":{"chapter":"0","element":"7","output":"3"}}***/
 
-/***dms_snippet_OUTPUT_JSON_7_{"line":79,"adjusted_line":3,"id":"KzswYWpCCeWntMk","type":"log","body":"RangeError: Matrix must be square (size: [1, 2])"}***/
+/***dms_snippet_OUTPUT_JSON_7_{"line":79,"adjusted_line":3,"id":"KzswYWpCCeWntMk","type":"log","body":"RangeError: Matrix must be square (size: [1, 2])","i":{"chapter":"0","element":"7","output":"4"}}***/
