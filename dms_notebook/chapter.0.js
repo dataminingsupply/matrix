@@ -70,7 +70,7 @@ dms.json(matrix.$on('determinant', data));
 /***dms_snippet_OUTPUT_JSON_5_{"line":63,"adjusted_line":7,"id":"dshMYqZlaHYQjqH","type":"json","body":{"output":6},"i":{"chapter":"0","element":"5","output":"2"}}***/
 
 /***dms_text_START_6***
-Examples of errors if correct conditions for functions are meant
+Examples of errors if correct conditions for functions are met
 ***dms_text_END***/
 
 /***dms_snippet_START_7***/

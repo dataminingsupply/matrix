@@ -1,7 +1,7 @@
 {
   "name": "matrix",
   "description": "Common matrix operation bindings for Math.js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "scope": "kapow",
   "repository": "https://github.com/dataminingsupply/matrix",
   "author": "kapow",
