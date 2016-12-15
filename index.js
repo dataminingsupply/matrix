@@ -76,6 +76,16 @@ module.exports = {
       } catch (err) {
         return callback(err.toString(), null);
       }
+    },
+    equal: function($, data, config, callback) {
+      try {
+        var output = {
+          'output': math.deepEqual(data.matrixA, data.matrixB)
+        };
+        return callback(null, output);
+      } catch (err) {
+        return callback(err.toString(), null);
+      }
     }
   }
 };

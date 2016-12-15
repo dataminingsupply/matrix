@@ -28,6 +28,21 @@ matrix.$on('transpose', data, matrixCallback);
 matrix.$on('inverse', data, matrixCallback);
 matrix.$on('determinant', data, matrixCallback);
 
+// test for element-wise matrix equality
+data = {
+    matrixA: [[2, 0], [-1, 3]],
+    matrixB: [[2, 0], [-1, 3]]
+};
+
+matrix.$on('equal', data, matrixCallback);
+
+data = {
+    matrixA: [[2, 0], [-1, 3]],
+    matrixB: [[7, 1], [-2, 3]]
+};
+
+matrix.$on('equal', data, matrixCallback);
+
 // test for errors
 data = {
     matrixA: [[]],
