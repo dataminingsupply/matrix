@@ -1,4 +1,4 @@
-var math = require('./math.js');
+var math = require('./math.js').math;
 
 module.exports = {
   $main: function($, data, config, callback){
