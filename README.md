@@ -6,3 +6,4 @@ This supply acts as a simply wrapper for matrix operations implemented in [Math.
 - transpose(matrixA): computes the transpose of matrixA
 - determinant(matrixA): computes the determinant for matrixA
 - inverse(matrixA): computes the inverse of matrixA
+- equal(matrixA, matrixB): returns true if matrices are equal element-wise, else false
